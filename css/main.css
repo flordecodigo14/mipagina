@@ -1,0 +1,256 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+
+.arriba {
+    background-color: rgb(180, 193, 183);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.titulo {
+    font-family: Cinzel;
+    font-size: 5em;
+    color: white;
+
+   
+}
+
+.logo {
+    width: 12rem;
+    opacity: 0.6;
+   
+
+}
+
+.slogan {
+    color: rgb(106, 106, 106);
+    font-family: Dancing Script;
+    font-size: 3em;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu { 
+    font-family: Cinzel;
+    font-size: 1.5em;
+    color: black;
+    list-style: none;
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "sobremi      barras       coaching"
+    "experiencia  testimonios  contacto";
+    border: solid 2px black; 
+    
+    /*justify-content: center;
+    align-content: center;*/
+    
+
+}
+
+.sobremi {
+    grid-area: sobremi; 
+    background-color: rgb(160, 144, 186);
+         
+}
+.sobremi:hover {
+    font-size: 3em;
+}
+.barras {
+    grid-area: barras;
+    background-color: rgb(204, 190, 226);
+}
+.barras:hover {
+    font-size: 3em;
+}
+
+.coaching {
+    grid-area: coaching;
+    background-color: rgb(160, 144, 186);
+}
+.coaching:hover {
+    font-size: 3em;
+}
+
+.experiencia {
+    grid-area: experiencia;
+    background-color: rgb(204, 190, 226);
+}
+.experiencia:hover{
+    font-size: 3em;
+}
+
+.testimonios {
+    grid-area: testimonios;
+    background-color: rgb(160, 144, 186);
+
+}
+.testimonios:hover {
+    font-size: 3em;
+}
+
+.contacto {
+    grid-area: contacto;
+    background-color: rgb(204, 190, 226);
+}
+
+.contacto:hover {
+    font-size: 3em;
+}
+
+.menu > li {
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+}
+#sobremi {
+    color: white;
+    background-color: rgb(170, 182, 173);
+    margin: 20px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.titulosobremi {
+    font-family: Cinzel;
+    font-size: 3em;
+}
+
+.psobremi {
+    font-family: oxigen;
+    font-size: 2em;
+}
+
+
+.mainpaginas {
+    font-size: 1.5em;
+    font-family:Julius Sans One ;
+    background-color: rgb(168, 183, 148);
+    margin: 20px;
+    padding: 100px;
+    
+
+}
+
+.headerpaginas{
+    font-family:Julius Sans One ;
+
+}
+
+
+@media screen and (max-width:1450px) {
+    .titulo {
+        font-size: 4em;
+
+    }
+
+    .slogan {
+        font-size: 2.5em;
+
+    }
+
+    .logo {
+        font-size: 8rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .titulo {
+        font-size: 3em;
+
+    }
+
+    .slogan {
+        font-size: 2em;
+
+    }
+
+    .logo {
+        font-size: 6rem;
+        
+    }
+}
+
+@media screen and (max-width:936px) {
+    .titulo {
+        font-size: 2em;
+
+    }
+    
+
+
+}   
+
+ @media screen and (max-width:936px) {
+
+ 
+    .titulo {
+        font-size: 2em; 
+
+    }
+
+    .menu {
+        font-size: 1em;
+    }
+
+    .titulosobremi {
+        font-size:2em ;
+    }
+    .psobremi{
+        font-size: 1em;
+    }
+        
+
+    }
+
+ @media screen and (max-width:636px) {
+    .titulo {
+            font-size: 1.5em; 
+        }
+    .slogan {
+        font-size:1.5em ;
+    }
+
+    
+        
+    
+        }
+
+@media screen and (max-width:436px) {
+    .titulo {
+        font-size: 1em; 
+        }
+    .slogan {
+        font-size:1em ;
+        }
+
+    .titulosobremi {
+        font-size: 1.2;
+
+    }
+
+    .psobremi{
+        font-size: 0.6em;
+
+    }
+        
+            
+                
+            
+        }
